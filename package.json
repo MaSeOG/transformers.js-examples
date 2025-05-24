@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "update": "node .scripts/update.js",
+    "audit": "node .scripts/update.js --audit_only",
     "build": "node .scripts/build.js",
     "format": "prettier --write ."
   },
@@ -19,6 +20,8 @@
   "author": "Hugging Face",
   "license": "Apache-2.0",
   "devDependencies": {
-    "prettier": "3.3.3"
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.7",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   }
 }

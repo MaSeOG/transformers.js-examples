@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@huggingface/transformers": "npm:@huggingface/transformers@3.5.0"
+  },
+  "nodeModulesDir": "auto"
+}
